@@ -200,7 +200,9 @@
         align-items: center;
 
     }
-
+#login_div{
+    display: none;
+}
 
     .product_section {
         margin-right: 5%;
@@ -275,7 +277,7 @@
     #search_bar {
         display: none;
         visibility: none;
-        i
+
     }
 
     #navbar {
@@ -284,6 +286,25 @@
         flex-wrap: wrap;
     }
 
+    .dp_down_more {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    #login_div,#search_grp{
+        display: none;
+    }
+    .dp_down_more a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        
+    }
 
 
 
@@ -430,4 +451,172 @@
     padding-left: 20px;
     color: gray;
     font-size: small;
+}
+
+
+
+
+
+.dp_down {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.appliances_dp_area:hover .dp_down {
+    display: block;
+}
+
+/* .appliances_dp_area:hover {background-color: #353535;} */
+
+.dp_down a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+
+.dp_down_toy {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.toy_dp_down_area:hover .dp_down_toy {
+    display: block;
+}
+
+.dp_down_toy a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+.dp_down_home {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.home_dp_down_area:hover .dp_down_home {
+    display: block;
+}
+
+.dp_down_home a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dp_down_electronic {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.electronic_dp_down_area:hover .dp_down_electronic {
+    display: block;
+}
+
+.dp_down_electronic a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+.dp_down_fashion {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.fashion_dp_down_area:hover .dp_down_fashion {
+    display: block;
+}
+
+.dp_down_fashion a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+.dp_down_more {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.vivek:hover .dp_down_more {
+    display: block;
+}
+
+.dp_down_more a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+.dp_down_more a:hover {background-color: #c9c9c9;}
+
+
+
+
+
+.dp_down_login {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.bhov:hover .dp_down_login {
+    display: block;
+    margin-left: 18rem;
+}
+
+.dp_down_login a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
 }
